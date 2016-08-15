@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:hint="Name of Buyer..."
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtItem"
+        android:hint="Item Sold..."
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCost"
+        android:hint="Transaction Amount..."
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back" />
+    <EditText
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:hint="Date of Sale..."
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back" />
+    <Button
+        android:text="Complete Invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFinish" />
+    <Button
+        android:text="@string/viewAllInvoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShow" />
+    <Button
+        android:text="Return Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHome" />
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:visibility="invisible" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tblBooks"
+        android:clickable="true"
+        android:visibility="gone" />
+</LinearLayout>

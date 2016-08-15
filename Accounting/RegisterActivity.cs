@@ -101,7 +101,7 @@ namespace Accounting
 
 
 
-                var intent = new Intent(this, typeof(RegisterActivity));
+                var intent = new Intent(this, typeof(MainActivity));
                 StartActivity(intent);
             }
             catch (Exception ex)

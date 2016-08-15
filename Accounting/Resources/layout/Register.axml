@@ -2,41 +2,69 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+              android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtName"
         android:hint="Name"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back"
+  />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtEmail"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress" 
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back"
+  />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtPassword"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword" 
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtConfirmPassword"
         android:hint="Confirm Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:background="@drawable/back"/>
     <Button
         android:text="Register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnRegister" />
+        android:id="@+id/btnRegister"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/buttonregstyle"
+        android:layout_marginEnd="15dp"/>
     <Button
         android:text="Go back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnBack" />
+        android:id="@+id/btnBack" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/buttonregstyle"
+        android:layout_marginEnd="15dp"/>
     <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
